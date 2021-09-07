@@ -1,0 +1,199 @@
+/* NAV BAR CODE */
+.navbar{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top : 0;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 1px rgb(201, 201, 201);
+}
+
+.navbar > *:nth-child(2){
+    flex: 1 1 20%
+}
+.navbar > *:nth-child(3){
+    flex: 1 1 50%
+}
+.navbar > *:nth-child(4){
+    flex: 1 1 5%
+}
+.navbar > *:nth-child(5){
+    flex: 1 1 5%
+}
+
+.searchbar input{
+    margin-top: 8px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: rgb(240, 240, 240);
+    height: 35px;
+    width: 35%;
+    float: left;
+    margin-right: 2px;
+}
+
+.searchbar input:hover {
+    border: 2px solid #c7c7c7;
+}
+
+.searchbar input:focus {
+    border: 3px solid #875cd6;
+    background-color: white;
+}
+
+.searchbar button {
+    margin-top: 8px;
+    border: none;
+    height: 35px;
+    width: 40px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgb(216, 215, 215) ;
+}
+
+.searchbar button:hover {
+    background-color: #c7c7c7;
+}
+
+.btn1 {
+    color: #000;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    word-spacing: 2rem;
+}
+
+.navbar .btn1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .btn1 a:hover{
+    color: blueviolet;
+}
+
+
+.btn2 {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.connect a {
+    margin-top: 10px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(236, 236, 236);
+    padding: 5px 15px;
+    font-size: 90%;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+
+.connect a:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.connect a:focus {
+    background-color: rgb(236, 236, 236);
+}
+
+
+ .inscription a {
+     margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 5px 15px;
+    font-size: 90%;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.inscription a:hover {
+    background-color: rgb(111, 29, 187);
+}
+
+.inscription a:focus {
+    background-color: blueviolet;
+}
+
+.mainLogo {
+    margin-top: 10px;
+    float: left;
+    width: 25px;
+    height: fit-content;
+}
+
+.searchlogo {
+    width: 20px;
+    height: auto;
+}
+
+.bodycolumns {
+    margin-top: 50px;
+    display: flex;
+}
+
+.bodycolumns > * {
+    flex-basis: 100%;
+}
+
+
+/*BODY CODE*/
+
+.bodycolumns > *:nth-child(1){
+    flex: 1 1 18%
+}
+.bodycolumns > *:nth-child(2){
+    flex: 1 1 75%
+}
+.bodycolumns > *:nth-child(3){
+    flex: 1 1 20%
+}
+
+.leftcolumn{
+    background-color: rgb(245, 245, 245);
+}
+
+.recommandation {
+    display: flex;
+}
+
+.recommandation h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    flex: 1 1 50%;
+}
+
+.recommandation .boutonmenugauche{
+    width: 15px;
+    height: 15px;
+    flex: 1 1 50%;
+    float: right;
+}
+
+.recommandation button{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+}
+
+.recommandation button:hover{
+    background-color: rgb(221, 221, 221);
+    border-radius: 4px;
+}
